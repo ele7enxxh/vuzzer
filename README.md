@@ -22,9 +22,11 @@ DataTracker runs on 32bit Linux systems. This limitation is imposed by the curre
 *  BitMagic: http://bmagic.sourceforge.net/ - To install it in your system do ```sudo apt-get install bmagic```
 *  BitVector module for python.
 
+We have tested VUzzer by running in on VirtualBox, with Ubuntu 14.04 LTS (32-bit), Linux 3.16.0.32 image. It should be noted that with kernel 4.x.y, Pin (2.13) gets panic. We recommend setting up the same environment to use VUzzer. This limitation will be addressed in the future release of VUzzer with 64-bit support.
+
 Installation
 -------------
-First do `cd vuzzer-code` and then
+First do `cd vuzzer` and then
 ```
 export PIN_ROOT=($pwd)/pin
 ```
